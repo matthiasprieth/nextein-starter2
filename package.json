@@ -6,7 +6,8 @@
   "scripts": {
     "dev": "nextein",
     "export": "nextein build && nextein export",
-    "now-build": "npm run export"
+    "now-build": "npm run export",
+    "forestry:preview": "next -p 8080 -H 0.0.0.0"
   },
   "keywords": [],
   "author": "Maximiliano Fierro",
